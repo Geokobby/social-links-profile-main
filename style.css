@@ -8,6 +8,7 @@
 
 .main_div {
     border: solid 1px black;
+    font-size: 14px;
 }
 
 .profile_image{
@@ -18,4 +19,23 @@
     background-image: url(assets/images/avatar-jessica.jpeg);
     background-position: center;
     background-size: cover;
+}
+
+.profile_name{
+    font-family:"Inter",sans-serif;
+    font-weight:700 ;
+    margin-top: 1em;
+}
+
+.location{
+    font-family: "Inter", sans-serif;
+    font-weight: 600 ;
+    margin-block: 0.5em;
+}
+
+.skill{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-block: 1em;
+
 }

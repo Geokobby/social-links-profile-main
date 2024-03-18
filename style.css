@@ -9,6 +9,9 @@
 .main_div {
     border: solid 1px black;
     font-size: 14px;
+    max-width: 20em;
+    text-align: center;
+margin-inline: auto;
 }
 
 .profile_image{
@@ -16,9 +19,11 @@
     height: 100px;
     border-radius: 50px;
     /* border: solid 1px ; */
+    
     background-image: url(assets/images/avatar-jessica.jpeg);
     background-position: center;
     background-size: cover;
+    margin-inline:auto ;
 }
 
 .profile_name{
@@ -38,4 +43,11 @@
     font-weight: 400;
     margin-block: 1em;
 
+}
+
+.socials{
+    display: block;
+    border: solid 1px;
+    width: 5em;
+    margin-inline: auto;
 }

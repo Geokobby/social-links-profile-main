@@ -8,13 +8,18 @@
 
 body{
     background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main_div {
-    margin-top: 3em;
+    /* margin-top: 3em; */
     border: solid 1px hsl(0, 0%, 12%);
     border-radius: 10px;
     font-size: 14px;
-    max-width: 25em;
+    min-width: 25%;
     height:fit-content;
     text-align: center;
 margin-inline: auto;
@@ -121,4 +126,17 @@ margin-block: 3em;
 
 .attribution a {
    color:  hsl(75, 94%, 57%);
+}
+
+@media screen and (max-width: 200px) {
+    .main_div{
+        width: 60%;
+    }
+    
+}
+@media screen and (min-width :480px) {
+    
+          .main_div{
+            width: 25%;
+          }
 }

@@ -54,10 +54,33 @@ ul{
     border: solid;
 }
 
-.git, .fm, .link, .x, .insta{
-    padding-inline: 2em;
+.git   {
+    padding-inline: 5.2em;
     padding-block: .5em;
 }
+
+.fm {
+    padding-inline: 3em;
+    padding-block: .5em;
+}
+.link{
+    padding-inline: 5em;
+        padding-block: .5em;
+}
+
+.x{
+    padding-inline: 5.4em;
+        padding-block: .5em;
+} 
+
+ .insta{
+    padding-inline: 4.7em;
+        padding-block: .5em;
+ }
+
+ .git, .fm, .link, .x, .insta{
+    border-radius: .5em;
+ }
 
 li{
 margin-block: 2em;

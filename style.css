@@ -10,20 +10,22 @@ body{
     background-color: hsl(0, 0%, 8%);
 }
 .main_div {
+    margin-top: 3em;
     border: solid 1px hsl(0, 0%, 12%);
     border-radius: 10px;
     font-size: 14px;
     max-width: 25em;
     height:fit-content;
     text-align: center;
-/* margin-inline: auto; */
+margin-inline: auto;
 font-family: "Inter", sans-serif;
 background-color: hsl(0, 0%, 12%);
 }
 
 .profile_image{
-    width: 100px;
-    height: 100px;
+    margin-top: 2em;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     /* border: solid 1px ; */
     
@@ -42,7 +44,7 @@ background-color: hsl(0, 0%, 12%);
 
 .location{
     
-    font-weight: 600 ;
+    font-weight: 400 ;
     margin-block: 0.5em;
     color: hsl(75, 94%, 57%);
 }
@@ -64,26 +66,26 @@ ul{
 }
 
 .git   {
-    padding-inline: 5.2em;
+    padding-inline: 8em;
     padding-block: .8em;
 }
 
 .fm {
-    padding-inline: 3em;
+    padding-inline: 5.6em;
     padding-block: .8em;
 }
 .link{
-    padding-inline: 5em;
+    padding-inline: 7.6em;
         padding-block: .8em;
 }
 
 .x{
-    padding-inline: 5.4em;
+    padding-inline: 8em;
         padding-block: .8em;
 } 
 
  .insta{
-    padding-inline: 4.7em;
+    padding-inline: 7.3em;
         padding-block: .8em;
  }
 
@@ -91,7 +93,7 @@ ul{
     border-radius: .5em;
     background-color:hsl(0, 0%, 20%) ;
     color: hsl(0, 0%, 100%);
-    font-weight: 700;
+    font-weight: 600;
     
  }
 
@@ -109,4 +111,14 @@ margin-block: 3em;
     /* border: solid black ; */
     
     
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 20%) ;
+}
+
+.attribution a {
+   color:  hsl(75, 94%, 57%);
 }

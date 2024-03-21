@@ -128,10 +128,10 @@ margin-block: 3em;
    color:  hsl(75, 94%, 57%);
 }
 
-@media screen and (max-width: 1347px) {
+@media screen and (max-width: 1200px) {
     .main_div{
-        width:70%;
-        border: solid white;
+        width:60%;
+      
        
     }
     

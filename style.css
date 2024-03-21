@@ -134,9 +134,3 @@ margin-block: 3em;
     }
     
 }
-@media screen and (min-width :480px) {
-    
-          .main_div{
-            width: 25%;
-          }
-}

@@ -130,8 +130,9 @@ margin-block: 3em;
 
 @media screen and (max-width: 1347px) {
     .main_div{
-        width: 30%;
-    
+        width:70%;
+        border: solid white;
+       
     }
     
    
